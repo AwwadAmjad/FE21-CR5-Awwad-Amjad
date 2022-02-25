@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --maincolor: var(#eee);
+    --scColor: var(rgb(82, 29, 29));
+
+}
+.container{ 
+padding-left: 15px;
+padding-right: 15px;    
+margin: 0 auto;
+    
+}
+/* start Navbar */
+.nav{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+background-color: var(--scColor);
+height: 150px;
+}
+.logo img{
+width :80px;
+margin-right: 150px;
+margin: auto;
+}
+h1{
+    letter-spacing: 0;
+    font-size:1rem;
+    color:#f6f6f6;
+    font-weight:bold;
+}
+.links {
+    display: flex;
+justify-items: flex-end;
+align-items: center;
+}
+.links li a{ 
+margin-left: 30px;
+font-size: 30px;
+font-weight: 800;
+color: #f6f6f6;
+text-decoration: none;
+list-style: none;
+border-radius: 8% 20% 8% 20%;
+border: 2px solid  var(--maincolor);
+padding: 5px;
+}
+.links li a:hover{
+ color: #444;
+border-radius: 20% 30%;
+border: 1px solid  var(--maincolor);
+padding: 10px;
+}
+/* End Navbar */
+
+#demo{
+display: grid;
+grid-template-columns:repeat(auto-fill, minmax(400px, 1fr));
+grid-gap: 20px;
+}
+#demo img{
+    width:100%;
+    height: 350px;
+}
+h4{
+    margin-bottom: 0;
+    text-align: start;
+    font-size: 0.5rem;
+}
+p{
+    color: rgb(82, 29, 29);
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+#demo .card{
+border: 2px solid #777;
+}
+#demo h1{
+font-weight: 400;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 2rem;
+color: #444;
+}
+#demo h5{
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+    color: #444;
+}
+#demo h4{
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+    color: #444;
+}
+
+.card-text h3{
+    color: #777;
+    text-align: start;
+    font-size: 1.3rem;
+    font-family: emoji;
+    font-weight: bold;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --maincolor: var(--maincolor);
+    --sc_color: var( rgb(180, 91, 91));
+}
+.container{ 
+padding-left: 15px;
+padding-right: 15px;    
+margin: 0 auto;
+    
+}
+/* start Navbar */
+.nav{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+background-color: rgb(180, 91, 91);
+height: 150px;
+}
+.logo img{
+width :80px;
+margin-right: 150px;
+margin: auto;
+}
+h1{
+    font-size :2rem;;
+    letter-spacing: 0;
+    color:#f6f6f6;
+    font-weight:bold;
+}
+.links {
+ display: flex;
+justify-items: flex-end;
+align-items: center;
+}
+.links li a{ 
+margin-left: 30px;
+font-size: 30px;
+font-weight: 800;
+color: #f6f6f6;
+text-decoration: none;
+list-style: none;
+border-radius: 8% 20% 8% 20%;
+border: 2px solid  #f6f6f6;
+padding: 5px;
+}
+.links li a:hover{
+ color: #444;
+border-radius: 20% 30%;
+border: 1px solid  var(--maincolor);
+padding: 10px;
+}
+/* End Navbar */
+
+#demo{
+display: grid; 
+grid-template-columns:repeat(auto-fill, minmax(400px, 1fr));
+grid-gap: 10px;
+}
+
+#demo .card img{
+    width: 98%;
+overflow: hidden;
+}
+#demo .card:hover img{
+    transform: rotate(3deg) scale(1.1);
+}
+h4{
+    margin-bottom: 0;
+    text-align: start;
+    font-size: 0.5rem;
+}
+p{
+    color: rgb(82, 29, 29);
+    font-weight: 900;
+    font-family: sans-serif;
+}
+#demo .card{
+border: 2px solid #777;
+
+}
+#demo h1{
+font-weight: 400;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 2rem;
+color: #444;
+}
+#demo h5{
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+    color: #444;
+}
+#demo h4{
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+    color: #444;
+}
+
+.card-text h3{
+    color: #777;
+    text-align: start;
+    font-size: 1.3rem;
+    font-family: emoji;
+    font-weight: bold;
+}
+
+
+/* Start Footer */
+.footer{
+background-color:rgb(180, 91, 91);
+  width: 100%;
+  height: 200px;
+}
+.icon{
+    text-align: center;
+    font-size: 2.8rem;
+    margin-top: 30px;
+}
+.icon i{
+    padding: 10px;
+    transition: 0.3s;
+}
+.icon i:hover{
+    transform: rotate(-10deg) scale(2);
+}
+.footer .text{
+    text-align:center;
+    padding: 10px;
+    margin-top: 2rem;
+    font-family: cursive;
+}
+.footer  i:nth-child(1){
+    color: red;
+    
+}
+.footer  i:nth-child(2){
+color: green;
+}
+.footer i:nth-child(3){
+color: blue;
+}
+.footer i:nth-child(4){
+color: blue;
+}
+.footer i:nth-child(5){
+color:  orange ;
+}
+
